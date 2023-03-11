@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Login" >
+    <classes>
+      <class name="WebsiteTest_Library.Login_Test"/>
+    </classes>
+  </test>
+ 
+  <test name="TextBox" enabled= "false">
+    <classes>
+      <class name="WebsiteTest_Library.TextBox_Test"/>
+    </classes>
+  </test>
+  
+  
+  <test name="Buttons"  enabled = "false">
+    <classes>
+      <class name="WebsiteTest_Library.Buttons_Test"/>
+    </classes>
+  </test>
+   
+   <test name="UplaodDownload" enabled="false">
+    <classes>
+      <class name="WebsiteTest_Library.Upload_DownloadTest"/>
+    </classes>
+  </test>
+  
+  <test name="SelectMenu">
+    <classes>
+      <class name="WebsiteTest_Library.SelectMenu_test"/>
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->
